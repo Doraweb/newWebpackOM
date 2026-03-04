@@ -1,0 +1,502 @@
+/* ant design custom theme hack */
+
+/*=============================================
+=            Select            =
+=============================================*/
+.ant-select-dropdown{
+  z-index: 2000;
+}
+.ant-select-dropdown-menu-item-active,.ant-select-dropdown-menu-item:hover{
+  background-color: #65686b;
+  color: #111;
+  z-index: 2000;
+}
+.ant-select-dropdown-menu-item-selected,.ant-select-dropdown-menu-item-selected:hover {
+  background-color: #444;
+}
+.ant-menu-horizontal > .ant-menu-submenu-selected {
+  border-bottom: 2px solid #2ea2f8;
+  color: #2ea2f8;
+}
+
+/*=====  End of Select  ======*/
+
+/*=============================================
+=            Badge           =
+=============================================*/
+.ant-badge {
+  line-height: 2;
+}
+
+/*=====  End of Badge ======*/
+
+/*=============================================
+=            Tree            =
+=============================================*/
+.ant-tree li a.ant-tree-node-selected {
+  background-color: transparent;
+  color: #f6a405;
+}
+.ant-tree li a:hover {
+  background-color: #65686b;
+  color: #f6a405;
+}
+
+.ant-tree.ant-tree-show-line li span.ant-tree-switcher {
+  background: #32425a;
+}
+/*=====  End of Tree  ======*/
+
+
+/*=============================================
+=            Button            =
+=============================================*/
+.ant-btn.active, .ant-btn:active, .ant-btn:focus, .ant-btn:hover {
+  background-color: #4b5960;
+  color: #fff;
+  border-color: #495252;
+}
+
+.ant-btn-primary:focus, .ant-btn-primary:hover {
+  background-color: #60b8fa;
+  color: #fff;
+  border-color: #60b8fa;
+}
+.ant-btn-danger:focus, .ant-btn-danger:hover {
+  background-color: #f46e65;
+  color: #fff;
+  border-color: #f46e65;
+}
+/*=====  End of Button  ======*/
+
+
+/*=============================================
+=            Menu            =
+=============================================*/
+.ant-menu-submenu-title, .ant-menu:not(.ant-menu-horizontal) .ant-menu-item {
+  background-color: transparent  /*antd bug fixed (v2.7.4) */
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+  background-color: transparent
+}
+/*=====  End of Menu  ======*/
+
+/*=============================================
+=            Input            =
+=============================================*/
+.ant-input-group-addon {
+  background-color: #34393c;
+  padding : 0
+}
+/*=====  End of Input  ======*/
+.ant-input-affix-wrapper.ant-input:not(:first-child){
+  background: 0;
+}
+
+/*=============================================
+=            InputNumber            =
+=============================================*/
+.ant-input-number-input {
+  background-color: #34393c;
+}
+/*=====  End of InputNumber  ======*/
+
+/*=============================================
+=            Slider            =
+=============================================*/
+.ant-slider, .ant-slider:hover {
+  width: 100%;
+  background-color: transparent;
+  border-color: transparent;
+}
+.ant-slider-handle {
+  background-color: #eee;
+  border-color: #eee;
+}
+.ant-slider-step {
+  background-color: #676b6e;
+}
+.ant-slider-track {
+  background-color: #80b2f2;
+  z-index: 2; /* antd bug fixed (v2.7.4) */
+}
+
+/*=====  End of Slider  ======*/
+
+/*=============================================
+=            Notification            =
+=============================================*/
+.ant-notification-notice-message {
+  color: #cadee5;
+}
+/*=====  End of Slider  ======*/
+
+
+/*=============================================
+=            Table            =
+=============================================*/
+.ant-table-fixed-header .ant-table-scroll .ant-table-header {
+  overflow-y: scroll;
+}
+.ant-table-tbody > tr.ant-table-row-selected td,.ant-table-tbody > tr.ant-table-row-selected:hover td,.ant-table-thead > tr.ant-table-row-hover > td, .ant-table-tbody > tr.ant-table-row-hover > td, .ant-table-thead > tr:hover > td, .ant-table-tbody > tr:hover > td {
+  background: #4b5960;
+}
+.ant-table-fixed-header .ant-table-body,
+.ant-table-header .ant-table-thead > tr > th {
+  background: #273142;
+}
+ .ant-table-tbody > tr > td{
+  padding: 8px 8px;
+  background: #001529
+ }
+/*=====  End of Table  ======*/
+
+/*=============================================
+=            Dropdown            =
+=============================================*/
+.ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu-title:hover {
+  background: #65686b; /* #42423f */
+}
+.ant-dropdown-menu-item-selected, .ant-dropdown-menu-item-selected>a, .ant-dropdown-menu-submenu-title-selected, .ant-dropdown-menu-submenu-title-selected>a {
+  color: #cadee5;
+  background: #444;
+}
+/*=====  End of Dropdown  ======*/
+
+/*=============================================
+=            Modal            =
+=============================================*/
+/* @media screen and (max-height:940px){
+  .vertical-center-modal .ant-modal-body{
+    max-height: 100%;
+  }
+} */
+.ant-modal-title {
+  color: inherit;
+}
+/*=====  End of Modal  ======*/
+
+/*=============================================
+=            DatePicker            =
+=============================================*/
+.ant-calendar-picker:hover .ant-calendar-picker-input:not([disabled]) {
+  border-color: #535f71;
+}
+.ant-calendar-picker-clear {
+  background: inherit;
+}
+.ant-calendar-date:hover {
+  background: #4b5960;
+}
+
+.ant-calendar-range .ant-calendar-in-range-cell:before{
+  background-color: #2EA2F8;
+}
+/*=====  End of Modal  ======*/
+
+
+/*=============================================
+=            Tag            =
+=============================================*/
+
+.ant-tag{
+  background: #65686b
+}
+.ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab{
+  background: transparent;
+}
+/*=====  End of Tag  ======*/
+
+
+.ant-fullcalendar {
+  font-size: 12px;
+  line-height: 1.5;
+  outline: none;
+  border-top: 1px solid #313d4f;
+}
+.ant-fullcalendar-month-select {
+  margin-left: 5px;
+}
+.ant-fullcalendar-header {
+  padding: 11px 16px 11px 0;
+  text-align: right;
+}
+.ant-fullcalendar-header .ant-select-dropdown {
+  text-align: left;
+}
+.ant-fullcalendar-header .ant-radio-group {
+  margin-left: 8px;
+  text-align: left;
+}
+.ant-fullcalendar-header label.ant-radio-button {
+  height: 22px;
+  line-height: 20px;
+  padding: 0 10px;
+}
+.ant-fullcalendar-date-panel {
+  position: relative;
+  outline: none;
+}
+.ant-fullcalendar-calendar-body {
+  padding: 8px 8px 14px;
+  height: 100%;
+  overflow-y: auto;
+}
+.ant-fullcalendar table {
+  border-collapse: collapse;
+  max-width: 100%;
+  background-color: transparent;
+  width: 100%;
+  height: 246px;
+}
+.ant-fullcalendar table,
+.ant-fullcalendar th,
+.ant-fullcalendar td {
+  border: 0;
+}
+.ant-fullcalendar td {
+  position: relative;
+}
+.ant-fullcalendar-calendar-table {
+  border-spacing: 0;
+  margin-bottom: 0;
+}
+.ant-fullcalendar-column-header {
+  line-height: 18px;
+  padding: 0;
+  width: 33px;
+  text-align: center;
+}
+.ant-fullcalendar-column-header .ant-fullcalendar-column-header-inner {
+  display: block;
+  font-weight: normal;
+}
+.ant-fullcalendar-week-number-header .ant-fullcalendar-column-header-inner {
+  display: none;
+}
+.ant-fullcalendar-month,
+.ant-fullcalendar-date {
+  text-align: center;
+  transition: all .3s;
+}
+.ant-fullcalendar-value {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 0;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  background: transparent;
+  line-height: 22px;
+  transition: all .3s;
+}
+
+/*修改鼠标放上去的颜色*/
+.ant-fullcalendar-value:hover {
+  background: #32393e;    
+  cursor: pointer;
+}
+.ant-fullcalendar-value:active {
+  background: #2ea2f8;
+  color: #fff;
+}
+.ant-fullcalendar-month-panel-cell .ant-fullcalendar-value {
+  width: 48px;
+}
+.ant-fullcalendar-today .ant-fullcalendar-value,
+.ant-fullcalendar-month-panel-current-cell .ant-fullcalendar-value {
+  box-shadow: 0 0 0 1px #2ea2f8;
+}
+.ant-fullcalendar-selected-day .ant-fullcalendar-value,
+.ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-value {
+  background: #2ea2f8;
+  color: #fff;
+}
+.ant-fullcalendar-disabled-cell-first-of-row .ant-fullcalendar-value {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.ant-fullcalendar-disabled-cell-last-of-row .ant-fullcalendar-value {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.ant-fullcalendar-last-month-cell .ant-fullcalendar-value,
+.ant-fullcalendar-next-month-btn-day .ant-fullcalendar-value {
+  color: rgba(255, 255, 255, 0.25);
+}
+.ant-fullcalendar-month-panel-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: separate;
+}
+.ant-fullcalendar-content {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -9px;
+}
+.ant-fullcalendar-fullscreen {
+  border-top: 0;
+  height: 100%;
+}
+.ant-fullcalendar-fullscreen .ant-fullcalendar-table {
+  table-layout: fixed;
+}
+.ant-fullcalendar-fullscreen .ant-fullcalendar-header .ant-radio-group {
+  margin-left: 16px;
+}
+.ant-fullcalendar-fullscreen .ant-fullcalendar-header label.ant-radio-button {
+  height: 28px;
+  line-height: 26px;
+}
+.ant-fullcalendar-fullscreen .ant-fullcalendar-month,
+.ant-fullcalendar-fullscreen .ant-fullcalendar-date {
+  text-align: left;
+  margin: 0 4px;
+  display: block;
+  color: #fff;
+  height: 116px;
+  padding: 4px 8px;
+  border-top: 2px solid #313d4f;
+  transition: background .3s;
+}
+.ant-fullcalendar-fullscreen .ant-fullcalendar-month:hover,
+.ant-fullcalendar-fullscreen .ant-fullcalendar-date:hover {
+  background: rgb(3,61,94);
+  cursor: pointer;
+}
+.ant-fullcalendar-fullscreen .ant-fullcalendar-month:active,
+.ant-fullcalendar-fullscreen .ant-fullcalendar-date:active {
+  background: rgb(3,61,94);
+}
+.ant-fullcalendar-fullscreen .ant-fullcalendar-column-header {
+  text-align: right;
+  padding-right: 12px;
+  padding-bottom: 5px;
+}
+
+.ant-fullcalendar-fullscreen .ant-fullcalendar-value {
+  text-align: right;
+  background: transparent;
+  width: auto;
+}
+
+.ant-fullcalendar-fullscreen .ant-fullcalendar-today .ant-fullcalendar-value {
+  color: #eff8fe;
+}
+.ant-fullcalendar-fullscreen .ant-fullcalendar-month-panel-current-cell .ant-fullcalendar-month,
+.ant-fullcalendar-fullscreen .ant-fullcalendar-today .ant-fullcalendar-date {
+  border-top-color: #2ea2f8;
+  background: transparent;
+}
+.ant-fullcalendar-fullscreen .ant-fullcalendar-month-panel-current-cell .ant-fullcalendar-value,
+.ant-fullcalendar-fullscreen .ant-fullcalendar-today .ant-fullcalendar-value {
+  box-shadow: none;
+}
+/*修改背景颜色*/
+.ant-fullcalendar-fullscreen .ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-month,
+.ant-fullcalendar-fullscreen .ant-fullcalendar-selected-day .ant-fullcalendar-date {
+  background: rgb(3,61,94);
+}
+.ant-fullcalendar-fullscreen .ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-value,
+.ant-fullcalendar-fullscreen .ant-fullcalendar-selected-day .ant-fullcalendar-value {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+
+
+.ant-fullcalendar-fullscreen .ant-fullcalendar-last-month-cell .ant-fullcalendar-date,
+.ant-fullcalendar-fullscreen .ant-fullcalendar-next-month-btn-day .ant-fullcalendar-date {
+  color: rgba(255, 255, 255, 0.25);
+}
+.ant-fullcalendar-fullscreen .ant-fullcalendar-content {
+  height: 90px;
+  overflow-y: auto;
+  position: static;
+  width: auto;
+  left: auto;
+  bottom: auto;
+}
+.ant-fullcalendar-disabled-cell .ant-fullcalendar-date,
+.ant-fullcalendar-disabled-cell .ant-fullcalendar-date:hover {
+  cursor: not-allowed;
+}
+.ant-fullcalendar-disabled-cell:not(.ant-fullcalendar-today) .ant-fullcalendar-date,
+.ant-fullcalendar-disabled-cell:not(.ant-fullcalendar-today) .ant-fullcalendar-date:hover {
+  background: transparent;
+}
+.ant-fullcalendar-disabled-cell .ant-fullcalendar-value {
+  color: rgba(255, 255, 255, 0.25);
+  border-radius: 0;
+  width: auto;
+  cursor: not-allowed;
+}
+
+
+
+.ant-card-bordered{
+  border:none;
+}
+
+.ant-card-head {
+  background:none;
+  border-bottom:none;
+}
+
+
+/*=============================================
+=            规则控制-左侧菜单样式            =
+=============================================*/
+
+.scriptRule .ant-menu-item-selected{
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.scriptRule .ant-menu-item{
+  background-color: #ddd;
+  color: black;
+}
+
+.scriptRule .ant-menu-item:hover{
+  color: white;
+}
+
+.scriptRule .ant-menu-item-selected:hover{
+  color: black;
+}
+
+/*=====  日历模式页面专用样式  ======*/
+
+.calenderViewStyle .ant-fullcalendar-fullscreen .ant-fullcalendar-selected-day .ant-fullcalendar-value {
+  font-size: 30px !important;
+}
+
+.calenderViewStyle .ant-fullcalendar-disabled-cell .ant-fullcalendar-value {
+  font-size: 30px !important;
+}
+
+.calenderViewStyle .ant-fullcalendar-fullscreen .ant-fullcalendar-value {
+  font-size: 30px !important;
+}
+
+.calenderViewStyle .ant-fullcalendar td {
+  border-right: 0.5px solid #676767 !important;
+}
+
+.calenderViewStyle .ant-fullcalendar-column-header .ant-fullcalendar-column-header-inner {  
+  font-size: 20px !important;
+}
+
+.calenderViewStyle .ant-fullcalendar-fullscreen .ant-fullcalendar-column-header{
+  border-right: 0.5px solid #676767 !important;
+}
+
+
+
+.ant-tooltip-inner{
+  user-select: text;
+}
