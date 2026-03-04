@@ -1,0 +1,35 @@
+/**
+ * 登录表单样式表
+ */
+.content {
+  /* background-color: #fff; */
+  padding: 32px;
+  width: 340px;
+  /* box-shadow: 0px 0px 15px #ccc; */
+  -webkit-app-region: no-drag;
+  /* margin-top: 36px; */
+  margin-left: -30px;
+}
+.username {
+  margin-bottom: 10px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-btn {
+  width:32px;
+  height:21px;
+  font-size:16px;
+  font-family:MicrosoftYaHei;
+  color:rgba(31,35,41,1);
+  line-height:21px;
+  font-weight: bold;
+}
+
+/* //记住密码样式 */
+.login-form-remberMiMa{
+  color:#fff;
+  font-size:13px;
+  font-family:MicrosoftYaHei;
+  margin-bottom: 10px;
+}

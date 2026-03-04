@@ -1,0 +1,14 @@
+{
+  "name": "OM",
+  "version": "0.0.0",
+  "description": "OM",
+  "author": "devLongLeg",
+  "private": true,
+  "main": "./main.js",
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3.8"
+  },
+  "dependencies": {},
+  "scripts": {}
+}

@@ -1,0 +1,36 @@
+.version {
+    font-size: 12px;
+    color: gray;
+    position: absolute;
+    left: 10px;
+    bottom: 3px;
+}
+
+.button-savebiemin{
+    position: absolute;
+    margin-left: 147px;
+    width:95px;
+    height: 32px;
+    background:rgba(255,255,255,1);
+    border-radius:4px;
+    border:1px solid rgba(195,198,203,1);
+    font-size:14px;
+    font-family:MicrosoftYaHei,PingFangSC-Regular,PingFangSC;
+    font-weight:400;
+    color:rgba(31,35,41,1);
+    line-height:32px;
+}
+.button-cancel{
+    position: absolute;
+    margin-left: -186px;
+    width:80px;
+    height:32px;
+    background:rgba(255,255,255,1);
+    border-radius:4px;
+    border:1px solid rgba(195,198,203,1);
+    font-size:14px;
+    font-family:MicrosoftYaHei,PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(31,35,41,1);
+    line-height:32px;
+}

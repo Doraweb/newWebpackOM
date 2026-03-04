@@ -1,0 +1,12 @@
+<!doctype html> <html> <head> <meta charset=utf-8> <title>Project OM</title> <script>if (localStorage.getItem('projectName_en') && localStorage.getItem('projectName_en') != '') { document.title = 'OM-' + localStorage.getItem('projectName_en') }; !function () { if (!process.env.HOT) { const e = document.createElement("link"); e.rel = "stylesheet", e.href = "./dist/app.css", document.getElementsByTagName("head")[0].appendChild(e) } }()</script> </head> <body> <div id=container style=width:100%;height:100%></div> <script> const script = document.createElement("script"), port = process.env.PORT || 3e3;
+        script.src = process.env.HOT ? "http://localhost:" + port + "/dist/app.bundle.js" : "./dist/app.bundle.js",
+            document.body.appendChild(script)
+        const { crashReporter } = require("electron");
+
+        crashReporter.start({
+            companyName: "inwhile",
+            submitURL: "https://pacific-falls-32011.herokuapp.com/",
+            ignoreSystemCrashHandler: true,
+            autoSubmit: true,
+            extra: { extra: "info from the renderer process" },
+        }); </script> </body> </html>

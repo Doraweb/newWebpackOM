@@ -1,0 +1,88 @@
+
+.header {
+  padding: 0 20px 0 0;
+  background-color: #fff;
+  height: 64px;
+  line-height: 64px;
+}
+
+.layout-project{
+  overflow: scroll;
+  height: 500px;
+}
+
+.user-profile {
+  float: right;
+  min-width: 230px;
+}
+.project-card{
+  float: left;
+  width: 160px;
+  height: 120px;
+  padding: 10px;
+  padding-top: 0px;
+  background-color:#fff; 
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+.project-header{
+  width: 140px;
+  height: 24px;
+  line-height: 24px;
+  float: left;
+}
+.project-name{
+  color: #2db7f5;
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+  display: inline-block;
+}
+.project-authority{
+  float: right;
+  margin-right: 5px;
+}
+.project-info{
+  float: right;
+  position: relative;
+  margin-right: 4px;
+}
+.projet-img-w{
+  float: left;
+  width: 140px;
+  height: 87px;
+}
+.project-img{
+  width: 100%;
+  height: 87px;
+}
+.content-search{
+  float: right;
+  background: #fff;
+  border-top: 1px solid #F7F7F7;
+  position: relative;
+  padding: 10px 0 ;
+}
+.search-wrap{
+  width: 200px;
+  float: right;
+  margin-right: 20px;
+}
+.content-project {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #F2F8FA;
+  padding-left: 15px;
+}
+.content-wrap {
+  width: 1104px;
+  height: 100%;
+  margin: 0 auto;
+}
+.font-info{
+  position: absolute;
+  padding: 3px;
+  left: 18px;
+  top: -4px;
+}

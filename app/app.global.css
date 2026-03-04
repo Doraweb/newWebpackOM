@@ -1,0 +1,2384 @@
+/* .yjwangEditor .w-e-toolbar .w-e-droplist ul.w-e-block li.w-e-item h1{
+    color: black !important;
+} */
+.w-e-item h1,
+.w-e-item h2,
+.w-e-item h3,
+.w-e-item h4,
+.w-e-item h5 {
+    color: black !important;
+}
+
+.w-e-text h1,
+.w-e-text h2,
+.w-e-text h3,
+.w-e-text h4,
+.w-e-text h5 {
+    color: #fff !important;
+}
+
+.repairEditor .w-e-text::-webkit-scrollbar {
+    display: none;
+    /* overflow-y: hidden; */
+}
+
+.repairEditor .w-e-text {
+    cursor: pointer;
+    overflow-y: scroll;
+}
+
+/* .yjwangEditor .text-area .w-e-menu .w-e-toolbar .w-e-droplist ul.w-e-block li.w-e-item h1,h5{
+    color: black !important;
+} */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+}
+
+/* x新添样式 */
+.LayoutView__content-header__34_Yn {
+    z-index: 5
+}
+
+.ant-spin-nested-loading.absolute-spin,
+.ant-spin-nested-loading.absolute-spin>.ant-spin-container {
+    width: 100%;
+    height: 100%;
+}
+
+.ant-modal-close {
+    color: rgb(255, 255, 255);
+}
+
+/* 样式统一修改 */
+*::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.CodeMirror-hints {
+    z-index: 1100
+}
+
+/*=============================================
+=              模态框公共样式                  =
+=============================================*/
+.vertical-center-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-center-modal .ant-modal {
+    top: auto;
+}
+
+.vertical-center-modal-equipment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-center-modal-equipment .ant-modal {
+    top: auto;
+}
+
+/* 时间配置模态框 */
+.warning-config .ant-modal-body {
+    padding: 10px 2px 5px 5px;
+}
+
+.warning-config .ant-form-item {
+    margin-bottom: 12px;
+}
+
+.warning-config .ant-form-item-label {
+    margin-right: 10px;
+}
+
+/* 数据回放 */
+.ant-slider-mark {
+    top: 24px;
+}
+
+.ant-slider-track {
+    background: #ffffff;
+    height: 5px;
+}
+
+.ant-slider-mark-text {
+    width: 180px;
+    margin-top: -5px;
+}
+
+/* 日历模态框样式 */
+.CalendarModal .ant-col-offset-1 {
+    margin-left: 0;
+}
+
+.CalendarModal .ant-col-10,
+.CalendarModal .ant-col-4 {
+    width: auto;
+}
+
+.CalendarModal .ant-form-item {
+    margin-bottom: 5px;
+}
+
+/* 日程样式下拉时间选中样式修改 */
+.ant-time-picker-panel-inner ul>li:hover {
+    background: rgba(150, 150, 150, 1);
+}
+
+li.ant-time-picker-panel-select-option-selected {
+    background: rgba(140, 140, 140, 1);
+}
+
+.ant-time-picker-panel-input-wrap {
+    color: #000;
+}
+
+/* -----------------------------------------------------------------分割线------------------------------------------------------------------------------ */
+
+/* 佰诗得 */
+.vertical-center-modal-equipment-best {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-center-modal-equipment-best .ant-modal {
+    top: auto;
+}
+
+/* best公用模态框头部 */
+.vertical-center-modal-equipment-best .ant-modal-header,
+.vertical-center-modal-equipment-best .ant-modal-content,
+.warning-config-best .ant-modal-header,
+.warning-config-best .ant-table-tbody>tr>td {
+    background: RGB(240, 240, 240);
+    color: #000;
+}
+
+/* best公用模态框头部X */
+.vertical-center-modal-equipment-best .ant-modal-close-x,
+.warning-config-best .ant-modal-close-x {
+    color: #000;
+}
+
+/* best公用模态框内容区 */
+.warning-config-best .ant-modal-content {
+    background: #ffffff;
+    color: #000;
+}
+
+.warning-config-best .ant-layout {
+    background: #ffffff;
+}
+
+.warning-config-best .ant-layout-header {
+    background: RGB(220, 220, 220);
+}
+
+.warning-config-best .ant-input {
+    background: RGB(240, 240, 240);
+    color: #000;
+}
+
+.warning-config-best .realtime-list-item {
+    background: RGB(240, 240, 240);
+}
+
+/* best模态框内按钮样式 */
+.warning-config-best .ant-btn {
+    background: #E1E1E1;
+    color: #000;
+}
+
+.warning-config-best label {
+    color: #000;
+}
+
+.warning-config-best .ant-select-selection {
+    background: RGB(240, 240, 240);
+    color: #000;
+}
+
+.warning-config-best .ant-select-arrow,
+.warning-config-best .ant-calendar-picker-icon:after {
+    color: #000;
+}
+
+.warning-config-best .ant-modal-body {
+    padding: 16px 8px 16px 14px;
+}
+
+/* best时间配置模态框 */
+.time-setting-best .ant-modal-body {
+    padding: 10px 2px 5px 5px;
+}
+
+.time-setting-best .ant-form-item {
+    margin-bottom: 12px;
+}
+
+.time-setting-best .ant-form-item-label {
+    margin-right: 10px;
+}
+
+.time-setting-best .ant-btn {
+    background: #E1E1E1;
+    color: #000;
+}
+
+.time-setting-best label {
+    color: #000;
+}
+
+.time-setting-best .ant-modal-content {
+    background: #ffffff;
+    color: #000;
+}
+
+.time-setting-best .ant-modal-header,
+.time-setting-best .ant-modal-content,
+.warning-config-best .ant-modal-header,
+.warning-config-best .ant-table-tbody>tr>td {
+    background: RGB(240, 240, 240);
+    color: #000;
+}
+
+.time-setting-best .ant-modal-close-x,
+.time-setting-best .ant-modal-close-x {
+    color: #000;
+}
+
+.time-setting-best .ant-select-selection {
+    background: RGB(240, 240, 240);
+    color: #000;
+}
+
+.time-setting-best .ant-select-arrow,
+.time-setting-best .ant-calendar-picker-icon:after {
+    color: #000;
+}
+
+.time-setting-best .ant-layout {
+    background: #ffffff;
+}
+
+.time-setting-best .ant-layout-header {
+    background: RGB(220, 220, 220);
+}
+
+.time-setting-best .ant-input {
+    background: RGB(240, 240, 240);
+    color: #000;
+}
+
+/* 操作记录 */
+
+.warning-config-best .ant-table-thead>tr>th {
+    color: #000;
+}
+
+/* best用户管理模态框样式 */
+.user-manager-modal-wrap-best .ant-modal-header {
+    background: RGB(240, 240, 240);
+    color: #000;
+}
+
+.user-manager-modal-wrap-best .ant-modal-close-x {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.user-manager-modal-wrap-best .ant-modal-body {
+    padding: 0;
+}
+
+.user-manager-modal-wrap-best .ant-btn {
+    background: #E1E1E1;
+    color: #000;
+}
+
+/* 切换用户登录框样式 */
+.warning-config-best .login-form-content {
+    margin-left: 10px;
+}
+
+/* 新建报警模态框 */
+.config-warning-best .ant-modal-header,
+.config-warning-best .ant-input-lg,
+.config-warning-best .ant-select-selection,
+.config-warning-best .ant-input-group-addon,
+.warning-config-best .ant-input-lg {
+    color: #000;
+    background: RGB(240, 240, 240);
+}
+
+.config-warning-best .ant-modal-content {
+    background: #ffffff;
+}
+
+.config-warning-best label,
+.config-warning-best .ant-select-arrow {
+    color: #000;
+}
+
+.config-warning-best .ant-btn {
+    background: #E1E1E1;
+    color: #000;
+}
+
+/* 趋势曲线模态 */
+.trend-best {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trend-best .ant-modal {
+    top: auto;
+}
+
+.trend-best .ant-modal-content {
+    background: RGB(240, 240, 240);
+}
+
+.trend-best .ant-modal-close-x,
+.trend-best label {
+    color: #000;
+}
+
+.trend-best .ant-btn {
+    color: #000;
+    background: #E1E1E1;
+}
+
+.text-style-best .ant-tree-title {
+    color: #000;
+}
+
+
+/* best菜单栏样式 */
+.best-ant-menu-title .ant-menu-submenu-title {
+    background: linear-gradient(RGB(196, 196, 196), RGB(230, 230, 230), RGB(120, 120, 120));
+    box-shadow: 2px 2px 2px RGB(66, 66, 66), -1px -1px 2px RGB(166, 166, 166);
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+.best-menu a:hover div {
+    color: #fff !important;
+}
+
+.best-menu .ant-menu-vertical {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+}
+
+/*best控制设置页面*/
+.warning-config-best .ant-tabs {
+    color: #000;
+}
+
+.warning-config-best .ant-slider-step {
+    background-color: #ccc;
+}
+
+.warning-config-best .ant-slider-track {
+    background-color: #80b2f2;
+}
+
+.warning-config-best .ant-slider-mark-text {
+    color: #000;
+}
+
+.warning-config-best .ant-slider-handle {
+    background-color: #80b2f2;
+    border-color: #80b2f2;
+}
+
+.warning-config-best .ant-slider-dot {
+    background-color: #999;
+    border-color: #aaa;
+}
+
+/* -----------------------------------------------------------------分割线------------------------------------------------------------------------------ */
+
+/* 博锐尚格persagy */
+
+/* 数据查询组件 */
+/* 下拉选择框 日期选择框样式 */
+.persagy-select-selection .ant-select-selection {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+    color: rgba(31, 35, 41, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    width: 90px;
+    height: 32px;
+    margin-bottom: 7px;
+}
+
+.persagy-select-selection__rendered .ant-select-selection__rendered {
+    line-height: 32px;
+    margin-left: 14px;
+}
+
+.persagy-select-dropdown .ant-select-dropdown-menu-item-selected {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-paramQuery-input .ant-input {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    height: 32px;
+}
+
+.persagy-paramQuery-input .ant-calendar-picker-icon:after {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-calendar-date-panel .ant-calendar-date-panel,
+.persagy-calendar-date-panel .ant-calendar-header,
+.persagy-calendar-date-panel .ant-calendar-body,
+.persagy-calendar-date-panel .ant-calendar-footer {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-ant-tree-text .ant-tree-title {
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 35, 41, 1);
+    line-height: 19px;
+}
+
+/* 系统管理 */
+
+.persagy-menu .ant-menu-inline,
+.ant-menu-vertical {
+    border: none;
+}
+
+/* 数据管理 */
+.persagy-table-tbody .ant-table-tbody>tr>td {
+    background: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 36, 41, 1);
+    border: none;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    height: 42px;
+    padding: 0px;
+}
+
+.persagy-table-thead .ant-table-header .ant-table-thead>tr>th {
+    background: rgba(248, 249, 250, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    border: none;
+    height: 40px;
+    padding: 0px;
+    line-height: 21px;
+}
+
+.persagy-table-placeholder .ant-table-placeholder {
+    background: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    border: none;
+}
+
+.persagy-pagination-item .ant-pagination-item {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(195, 199, 203, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(100, 106, 115, 1);
+}
+
+.persagy-pagination-item .ant-pagination-prev,
+.persagy-pagination-item .ant-pagination-next,
+.persagy-pagination-item .ant-select-selection {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(195, 199, 203, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(100, 106, 115, 1);
+    ;
+}
+
+.persagy-pagination-item li>a,
+.persagy-pagination-item .ant-pagination-prev>a,
+.persagy-pagination-item .ant-pagination-next>a,
+.persagy-pagination-item .ant-pagination-jump-next:after,
+.persagy-pagination-item .ant-pagination-jump-prev:after {
+    color: rgba(100, 106, 115, 1);
+}
+
+.persagy-pagination-item .ant-pagination-item-active:focus a {
+    color: #0091FF;
+}
+
+.persagy-pagination-item .ant-pagination-item:focus,
+.persagy-pagination-item .ant-pagination-item-active {
+    background: rgba(225, 242, 255, 1);
+    border: 1px solid rgba(0, 145, 255, 1);
+}
+
+.persagy-pagination-item .ant-select-open {
+    background: rgba(255, 255, 255, 1);
+}
+
+.persagy-dataManage-input {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(195, 199, 203, 1);
+    color: rgba(100, 106, 115, 1);
+}
+
+.persagy-dataManage-input+.ant-input-suffix {
+    color: rgba(100, 106, 115, 1);
+}
+
+
+.persagy-modal-style .ant-modal-content {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 30px 0px rgba(31, 35, 41, 0.15);
+    border-radius: 8px;
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-modal-style .ant-modal-header {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px 8px 0 0;
+    font-size: 16px;
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(31, 35, 41, 1);
+    border-bottom: 1px solid rgba(239, 240, 241, 1);
+}
+
+.persagy-modal-style .ant-modal-close-x:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-historyModal-select-selection .ant-select-selection {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+    color: rgba(31, 35, 41, 1);
+    border-radius: 4px;
+    font-family: MicrosoftYaHei;
+}
+
+.persagy-historyModal-select-selection .ant-select-arrow {
+    color: rgba(100, 106, 115, 1);
+}
+
+.persagy-historyModal-calendar-picker .ant-input {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    border: 1px solid #C3C6CB;
+}
+
+.persagy-historyModal-calendar-picker .ant-calendar-picker-icon:after,
+.persagy-historyModal-calendar-picker .ant-calendar-range-picker-separator {
+    color: rgba(31, 35, 41, 1);
+}
+
+/* 点位监控 */
+.persagy-pointView .anticon-plus:before,
+.persagy-pointView .anticon-close:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+
+/* 策略管理 */
+.persagy-detailTable-tbody .ant-table-tbody>tr>td {
+    background: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 36, 41, 1);
+    border: none;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    height: 42px;
+    padding: 0px;
+}
+
+.persagy-detailTable-thead .ant-table-thead>tr>th {
+    background: rgba(248, 249, 250, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    border: none;
+    height: 40px;
+    padding: 0px;
+    line-height: 21px;
+}
+
+.persagy-detailTable-placeholder .ant-table-placeholder {
+    background: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    border: none;
+}
+
+/* .persagy-detailTable-hover .ant-table-thead > tr >th:hover {
+        background:rgb(202, 207, 214);
+    } */
+
+/* 日志信息 */
+.persagy-log-calendar-picker .ant-input {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    height: 32px;
+    border: 1px solid #C3C6CB;
+}
+
+.persagy-log-calendar-picker .ant-calendar-picker-icon:after,
+.persagy-log-calendar-picker .ant-calendar-range-picker-separator {
+    color: rgba(31, 35, 41, 1);
+}
+
+/* 全局配置 */
+.persagy-globalConfig .ant-radio-button-wrapper {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid rgba(195, 199, 203, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(31, 36, 41, 1);
+}
+
+.persagy-globalConfig .ant-radio-button-wrapper:last-child {
+    border-radius: 0px 4px 4px 0px;
+    border-left: none;
+}
+
+.persagy-globalConfig .ant-radio-button-wrapper-checked {
+    background: rgba(225, 242, 255, 1);
+    color: rgba(0, 145, 255, 1);
+    border: 1px solid rgba(0, 145, 255, 1);
+}
+
+.persagy-globalConfig-label .ant-form-item-label label {
+    font-size: 16px;
+    color: rgba(31, 35, 41, 1);
+    line-height: 32px;
+}
+
+.om-globalConfig-label .ant-form-item-label label {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.persagy-globalConfig-label .ant-input[disabled],
+.persagy-globalConfig-label .ant-tag {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(195, 199, 203, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Regular, PingFang SC;
+    color: rgba(31, 36, 41, 1);
+    margin-right: 10px;
+}
+
+.om-globalConfig-label .ant-input[disabled],
+.persagy-globalConfig-label .ant-tag {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* 能源管理组件样式修改 */
+.EnergyViewTableStyle div div div div div div .ant-table-thead tr>th {
+    background: rgba(235, 235, 235, 1);
+    width: 25px;
+    height: 20px;
+    font-size: 13px;
+    color: rgba(90, 90, 90, 1);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.EnergyViewTableStyle div div div div div div .ant-table-tbody tr>td {
+    background: #ffffff;
+    font-size: 14px;
+    color: rgba(31, 36, 41, 1);
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(220, 220, 220, 1);
+}
+
+.EnergyViewSelectStyle .ant-select-selection {
+    background: #ffffff;
+    font-size: 13px;
+    color: rgba(31, 35, 41, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(180, 180, 180, 1);
+}
+
+.EnergyViewSelectStyle .ant-select-arrow {
+    color: rgba(31, 35, 41, 1);
+}
+
+.EnergyViewSelectStyle .ant-input {
+    background: #ffffff;
+    font-size: 13px;
+    color: rgba(31, 35, 41, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(180, 180, 180, 1);
+}
+
+.EnergyViewSelectStyle .ant-calendar-range-picker-separator,
+.EnergyViewSelectStyle .ant-calendar-picker-icon:after {
+    color: rgba(31, 35, 41, 1);
+    margin-top: 2px;
+}
+
+
+/* 历史曲线 */
+.persagy-history-label .ant-form-item-label label {
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-history-calendar-picker .ant-calendar-picker .ant-input {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    height: 32px;
+    border: 1px solid #C3C6CB;
+}
+
+.persagy-history-calendar-picker .ant-calendar-picker-icon:after {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-history-select-selection .ant-select-selection {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+    color: rgba(31, 35, 41, 1);
+    border-radius: 4px;
+    font-family: MicrosoftYaHei;
+}
+
+.persagy-history-modal .ant-btn:first-child {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+    color: rgba(38, 38, 38, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+}
+
+.persagy-history-modal .ant-btn-primary {
+    border: 1px solid rgba(195, 198, 203, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+}
+
+.persagy-history-modal .ant-modal-footer,
+.persagy-point-modal .ant-modal-footer {
+    border-top: 1px solid rgba(239, 240, 241, 1);
+}
+
+.persagy-history-modal .ant-modal-close-x:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-point-modal .ant-btn {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+    color: rgba(38, 38, 38, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+}
+
+.persagy-point-modal .ant-btn-primary {
+    background: rgba(0, 145, 255, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+}
+
+.persagy-point-input .ant-input {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    height: 32px;
+    border: 1px solid rgba(195, 198, 203, 1);
+}
+
+.persagy-point-input .anticon-search:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-point-table .ant-table table {
+    padding: 0;
+}
+
+.persagy-point-table .ant-table-header table {
+    border-bottom: none;
+}
+
+.persagy-point-table .ant-table-small {
+    border: none;
+}
+
+/* 回放功能，时间配置模态框 */
+.warning-config-persagy .ant-modal-body {
+    padding: 16px 2px 0 8px;
+}
+
+.warning-config-persagy .ant-modal-header {
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(31, 35, 41, 1);
+    border-bottom: 1px solid rgba(239, 240, 241, 1);
+}
+
+.warning-config-persagy .ant-modal-content {
+    background: #ffffff;
+}
+
+.warning-config-persagy .ant-modal-close {
+    color: #9CA2A9;
+}
+
+.warning-config-persagy .ant-btn {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(195, 198, 203, 1);
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(31, 35, 41, 1);
+    width: 66px;
+    height: 28px;
+}
+
+.warning-config-persagy .ant-modal-footer {
+    border-top: 0;
+    padding: 0 22px 12px 0;
+}
+
+.warning-config-persagy .ant-form-item {
+    margin-bottom: 20px;
+}
+
+.warning-config-persagy label {
+    color: #646C73;
+}
+
+.warning-config-persagy .ant-select-arrow,
+.warning-config-persagy .ant-calendar-picker-icon:after {
+    color: #9CA2A9;
+}
+
+.warning-config-persagy .ant-input,
+.warning-config-persagy .ant-select-selection {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(195, 199, 203, 1);
+    height: 30px;
+    color: #1F2329;
+    line-height: 30px;
+}
+
+.warning-config-persagy .ant-modal-footer .ant-btn-primary {
+    background: rgba(0, 145, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+/* 报警相关页面 */
+.persagy-warningManage .ant-radio-button-wrapper {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(195, 199, 203, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(31, 36, 41, 1);
+}
+
+.persagy-warningManage .ant-radio-button-wrapper:last-child {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.persagy-warningManage .ant-radio-button-wrapper:nth-child(2) {
+    border-left: none;
+    border-right: none;
+}
+
+.persagy-warningManage .ant-radio-button-wrapper:first-child {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.persagy-warningManage .ant-radio-button-wrapper-checked {
+    background: rgba(225, 242, 255, 1);
+    border: 1px solid rgba(0, 145, 255, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(0, 145, 255, 1);
+}
+
+.persagy-warningManage-modal .ant-modal-content {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 30px 0px rgba(31, 35, 41, 0.15);
+    border-radius: 8px;
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-warningManage-modal .ant-modal-header {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px 8px 0 0;
+    font-size: 16px;
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(31, 35, 41, 1);
+    border-bottom: 1px solid rgba(239, 240, 241, 1);
+}
+
+.persagy-warningManage-modal .ant-modal-close-x:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-warningManage-table .ant-table-tbody>tr>td {
+    background: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 36, 41, 1);
+    border: none;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    height: 42px;
+    padding: 0px;
+}
+
+.persagy-warningManage-table .ant-table-header .ant-table-thead>tr>th {
+    background: rgba(248, 249, 250, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    border: none;
+    height: 40px;
+    padding: 0px;
+    line-height: 21px;
+}
+
+.persagy-warningManage-table .ant-table-small {
+    border: none;
+}
+
+.persagy-warningManage-table .ant-table-placeholder {
+    background: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    border: none;
+}
+
+.persagy-warningManage-table .ant-radio-inner {
+    background: rgba(255, 255, 255, 1);
+    border-color: #aaa;
+}
+
+.persagy-warningManage-table .ant-btn-danger {
+    color: #f04134;
+    background-color: #fff;
+    border-color: rgb(195, 198, 203);
+}
+
+.persagy-warningManage-table .ant-btn {
+    border-color: rgb(195, 198, 203);
+}
+
+.persagy-warningManage-input .ant-input {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    height: 28px;
+    border: 1px solid rgba(195, 198, 203, 1);
+}
+
+.persagy-warningManage-input .anticon-search:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-warningManage-calendar-picker .ant-calendar-picker .ant-input {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    height: 28px;
+    border: 1px solid #C3C6CB;
+}
+
+.persagy-warningManage-calendar-picker .ant-calendar-picker-icon:after {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-warningManage-label .ant-form-item-label label,
+.persagy-warningManage-label .ant-checkbox-wrapper {
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 108, 115, 1);
+}
+
+.persagy-warningManage-label .ant-input {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+}
+
+.persagy-warningManage-label .anticon-search:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-warningManage-label .ant-select-selection {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+    color: rgba(31, 35, 41, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+}
+
+.persagy-warningManage-label .ant-input-group-addon {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(31, 35, 41, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+}
+
+/* persagy日历样式 */
+.PersagyCalendarStyle {
+    background: #ffffff;
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(100, 106, 115, 1);
+    line-height: 20px;
+}
+
+.PersagyCalendarStyle .ant-fullcalendar-fullscreen .ant-fullcalendar-value {
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(100, 106, 115, 1);
+}
+
+.PersagyCalendarStyle .ant-fullcalendar-fullscreen .ant-fullcalendar-date {
+    border-top-color: rgba(239, 240, 241, 1);
+}
+
+.PersagyCalendarStyle .ant-fullcalendar-last-month-cell .ant-fullcalendar-value,
+.PersagyCalendarStyle .ant-fullcalendar-next-month-btn-day .ant-fullcalendar-value {
+    color: rgba(228, 229, 231, 1);
+}
+
+.PersagyCalendarStyle .ant-fullcalendar-fullscreen .ant-fullcalendar-selected-day .ant-fullcalendar-date {
+    border-top-color: rgba(145, 145, 145, 1);
+    background: rgba(245, 246, 247, 1);
+}
+
+.PersagyCalendarStyle .ant-fullcalendar-fullscreen .ant-fullcalendar-today .ant-fullcalendar-date {
+    background: rgba(245, 246, 247, 1);
+    border-top-color: rgba(0, 145, 255, 1);
+}
+
+.PersagyCalendarStyle .ant-fullcalendar-fullscreen .ant-fullcalendar-today .ant-fullcalendar-date .ant-fullcalendar-value,
+.PersagyCalendarStyle .ant-fullcalendar-fullscreen .ant-fullcalendar-selected-day .ant-fullcalendar-date .ant-fullcalendar-value {
+    color: rgba(100, 106, 115, 1);
+}
+
+.PersagyCalendarStyle .ant-fullcalendar-fullscreen .ant-fullcalendar-date:hover {
+    background: rgba(240, 240, 240, 1);
+}
+
+.PersagyCalendarStyle .ant-select-selection {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(195, 198, 203, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+}
+
+.PersagyCalendarStyle .ant-select-selection .ant-select-arrow {
+    color: rgba(141, 147, 153, 1);
+}
+
+.PersagyCalendarStyle .ant-radio-button-wrapper {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(195, 198, 203, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Regular, PingFang SC;
+    color: rgba(228, 229, 231, 1);
+    margin-left: 5px;
+}
+
+.PersagyCalendarStyle .ant-radio-button-wrapper-checked {
+    color: rgba(0, 145, 255, 1);
+}
+
+.PersagyCalendarStyle .ant-radio-button-wrapper:not(:first-child)::before {
+    height: 0;
+}
+
+.PersagyCalendarStyle .ant-fullcalendar-content li {
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 57, 64, 1);
+}
+
+.PersagyCalendarStyle .ant-select-dropdown-menu-item {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(31, 35, 41, 1);
+    border-bottom: 1px solid rgba(239, 240, 241, 1);
+}
+
+.PersagyCalendarStyle .ant-select-dropdown-menu-item-active,
+.PersagyCalendarStyle .ant-select-dropdown-menu-item:hover {
+    background-color: rgba(240, 240, 240, 1);
+    z-index: 2000;
+}
+
+.PersagyCalendarStyle .ant-select-dropdown-menu-item-selected,
+.PersagyCalendarStyle .ant-select-dropdown-menu-item-selected:hover {
+    background-color: rgba(245, 246, 247, 1);
+}
+
+/* persagy日历模态框样式修改   其他模态框可公用以下样式 */
+
+.PersagyCalendarModal .ant-modal-body {
+    padding: 0 16px;
+}
+
+.PersagyCalendarModal .ant-modal-header {
+    background: #ffffff;
+    font-size: 17px;
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    font-weight: 600;
+    color: rgba(31, 35, 41, 1);
+    border-bottom: 0;
+    border-radius: 4px;
+}
+
+.PersagyCalendarModal .ant-modal-close-x {
+    color: rgba(156, 162, 169, 1);
+}
+
+.PersagyCalendarModal .ant-modal-content {
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.PersagyCalendarModal .ant-form-item-label label {
+    font-size: 13px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 35, 41, 1);
+}
+
+.PersagyCalendarModal .ant-col-offset-1 {
+    margin-left: 0;
+}
+
+.PersagyCalendarModal .ant-col-10,
+.PersagyCalendarModal .ant-col-4 {
+    width: auto;
+}
+
+.PersagyCalendarModal .ant-form-item {
+    margin-bottom: 0;
+    color: rgba(31, 35, 41, 1);
+}
+
+.PersagyCalendarModal .ant-modal-footer {
+    border-top: 0;
+    padding: 20px 16px;
+}
+
+.PersagyCalendarModal .ant-btn {
+    /* width:80px;
+    height:32px; */
+    border-radius: 4px;
+    border: 1px solid rgba(195, 198, 203, 1);
+    background: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(31, 35, 41, 1);
+    line-height: 22px;
+}
+
+.PersagyCalendarModal .ant-btn-primary {
+    background: rgba(0, 145, 255, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 22px;
+    border: 0;
+}
+
+.PersagyCalendarModal .ant-table-small {
+    border: 0;
+}
+
+.PersagyCalendarModal .ant-table {
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 36, 41, 1);
+}
+
+.PersagyCalendarModal .ant-table-header .ant-table-thead>tr>th {
+    background: rgba(248, 249, 250, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    line-height: 16px;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.PersagyCalendarModal .ant-table-header {
+    background: rgba(248, 249, 250, 1);
+}
+
+.PersagyCalendarModal .ant-table-fixed-header>.ant-table-content>.ant-table-scroll>.ant-table-body {
+    background: rgba(255, 255, 255, 1);
+}
+
+.PersagyCalendarModal .ant-table-tbody>tr>td {
+    border-right: 0;
+    background: #ffffff;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.PersagyCalendarModal .ant-table-tbody .ant-radio-inner {
+    background: rgba(255, 255, 255, 1);
+    border-color: rgba(195, 198, 203, 1);
+}
+
+.PersagyCalendarModal .ant-table-tbody .ant-radio-inner:after {
+    width: 8px;
+    height: 8px;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+}
+
+.PersagyCalendarModal .ant-layout-content {
+    background: #ffffff;
+}
+
+.PersagyCalendarModal .ant-layout-header {
+    background: rgba(248, 249, 250, 1);
+    padding: 6px 0 5px 11px;
+}
+
+.PersagyCalendarModal .ant-table-bordered .ant-table-thead>tr>th {
+    background: rgba(248, 249, 250, 1);
+    font-size: 13px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    line-height: 16px;
+    border: 0;
+}
+
+.PersagyCalendarModal .ant-table-bordered .ant-table-header>table {
+    border: 0;
+}
+
+.PersagyCalendarModal .ant-table-bordered .ant-table-body>table {
+    border: 1px solid rgba(240, 240, 240, 1);
+}
+
+.PersagyCalendarModal .ant-table-bordered.ant-table-empty .ant-table-placeholder {
+    background: #ffffff;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 36, 41, 1);
+    border: 1px solid rgba(230, 230, 230, 1);
+}
+
+.PersagyCalendarModal .ant-table-placeholder {
+    background: #ffffff;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 36, 41, 1);
+    border: 1px solid rgba(230, 230, 230, 1);
+}
+
+.PersagyCalendarModal .ant-time-picker-input {
+    background: rgba(248, 249, 250, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 36, 41, 1);
+}
+
+.PersagyCalendarModal .ant-time-picker-panel-inner,
+.PersagyCalendarModal .ant-time-picker-panel-input-wrap,
+.PersagyCalendarModal .ant-time-picker-panel-select {
+    background: #ffffff;
+    color: rgba(31, 36, 41, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+}
+
+.PersagyCalendarModal .ant-input,
+.PersagyCalendarModal .ant-input-affix-wrapper .ant-input-suffix {
+    background: #ffffff;
+    color: rgba(31, 36, 41, 1);
+}
+
+.PersagyCalendarModal .ant-select-selection {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(195, 198, 203, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+}
+
+.PersagyCalendarModal .ant-select-arrow {
+    color: rgba(141, 147, 153, 1);
+}
+
+.PersagyCalendarModal .ant-layout {
+    background: #fff;
+}
+
+.PersagyCalendarModal .ant-btn:hover {
+    background-color: rgba(225, 242, 255, 1);
+}
+
+.PersagyCalendarModal .ant-btn-primary:hover {
+    background-color: #60b8fa;
+    color: #fff;
+    border-color: #60b8fa;
+}
+
+/* 操作记录 */
+
+.persagy-operationRecord-modal .ant-modal-content {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 30px 0px rgba(31, 35, 41, 0.15);
+    border-radius: 8px;
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-operationRecord-modal .ant-modal-header {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px 8px 0 0;
+    font-size: 16px;
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(31, 35, 41, 1);
+    border-bottom: 1px solid rgba(239, 240, 241, 1);
+}
+
+.persagy-operationRecord-modal .ant-modal-close-x:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-operationRecord-table .ant-table-tbody>tr>td {
+    background: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 36, 41, 1);
+    border: none;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    height: 42px;
+    padding: 0px;
+}
+
+.persagy-operationRecord-table .ant-table-header .ant-table-thead>tr>th {
+    background: rgba(248, 249, 250, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    border: none;
+    height: 40px;
+    padding: 0px;
+    line-height: 21px;
+}
+
+.persagy-operationRecord-table .ant-table-small {
+    border: none;
+}
+
+.persagy-operationRecord-table .ant-table-placeholder {
+    background: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    border: none;
+}
+
+.persagy-operationRecord-calendar-picker .ant-calendar-picker .ant-input,
+.persagy-operationRecord-calendar-picker .ant-btn {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    border: 1px solid #C3C6CB;
+}
+
+.persagy-operationRecord-calendar-picker .ant-calendar-picker-icon:after {
+    color: rgba(31, 35, 41, 1);
+}
+
+/* 用户管理 */
+.persagy-userManage-Modal .ant-layout,
+.persagy-userManage-Modal .ant-layout-header {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(31, 35, 41, 1);
+    border-bottom: none;
+    border-radius: 8px;
+}
+
+.persagy-userManage-Modal .ant-modal-content {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 30px 0px rgba(31, 35, 41, 0.15);
+    border-radius: 8px;
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-userManage-Modal .ant-modal-header {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px 8px 0 0;
+    font-size: 16px;
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(31, 35, 41, 1);
+    border-bottom: 1px solid rgba(239, 240, 241, 1);
+}
+
+.persagy-userManage-Modal .ant-modal-close-x:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-userManage-Modal .ant-modal-footer {
+    border-top: 1px solid rgba(239, 240, 241, 1);
+}
+
+.persagy-userManage-Modal .ant-form-item-label label,
+.persagy-userManage-Modal .ant-checkbox-wrapper {
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 108, 115, 1);
+}
+
+.persagy-userManage-Modal .ant-input {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+}
+
+.persagy-userManage-Modal .anticon-search:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-userManage-Modal .ant-select-selection {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+    color: rgba(31, 35, 41, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+}
+
+.persagy-userManage-Modal .ant-btn {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+    color: rgba(31, 35, 41, 1);
+    border-radius: 4px;
+    font-family: MicrosoftYaHei;
+}
+
+.persagy-userManage-Modal .ant-btn-primary {
+    color: #fff;
+    background-color: #2ea2f8;
+    border-color: #2ea2f8;
+}
+
+.persagy-userManage-table .ant-table-tbody>tr>td {
+    background: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 36, 41, 1);
+    border: none;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    height: 42px;
+    padding: 0px;
+}
+
+.persagy-userManage-table .ant-table-small {
+    border: none;
+}
+
+.persagy-userManage-table .ant-table-placeholder {
+    background: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    border: none;
+}
+
+.persagy-userPanel-popover .ant-popover-inner {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-userPanel-popover .ant-popover-inner-content {
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-userPanel-popover .ant-popover-title {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px 8px 0 0;
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    color: rgba(31, 35, 41, 1);
+    border-bottom: 1px solid rgba(195, 198, 203, 1);
+}
+
+/* .persagy-userPanel-popover .ant-popover-placement-top > .ant-popover-content > .ant-popover-arrow {
+    border-bottom-color: #fff;
+}
+.persagy-userPanel-popover .ant-popover-placement-top > .ant-popover-content > .ant-popover-arrow::before {
+    border-bottom-color: #fff;
+} */
+.persagy-userPanel-popover .ant-btn {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+    color: rgba(31, 35, 41, 1);
+    border-radius: 4px;
+    font-family: MicrosoftYaHei;
+}
+
+.persagy-userPanel-popover .ant-btn-danger {
+    color: #f04134;
+}
+
+.persagy-userPanel-popover .ant-table-row:hover {
+    color: #ffffff;
+}
+
+.persagy-switchUser-modal .ant-modal-content {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 30px 0px rgba(31, 35, 41, 0.15);
+    border-radius: 8px;
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-switchUser-modal .ant-modal-header {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px 8px 0 0;
+    font-size: 16px;
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(31, 35, 41, 1);
+    border-bottom: 1px solid rgba(239, 240, 241, 1);
+}
+
+.persagy-switchUser-modal .ant-modal-close-x:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-switchUser-modal .ant-input {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    border: 1px solid rgba(195, 198, 203, 1);
+}
+
+.persagy-switchUser-modal .ant-checkbox-wrapper {
+    font-size: 12px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-switchUser-modal .ant-btn-primary {
+    border-radius: 4px;
+}
+
+.PersagyCalendarModal .ant-calendar-picker-icon:after,
+.PersagyCalendarModal .ant-calendar-range-picker-separator {
+    color: rgba(100, 108, 115, 1);
+}
+
+/* 仪表盘样式修改 */
+
+.PersagyDashboardModal .ant-modal-header {
+    background: #ffffff;
+    font-size: 17px;
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    font-weight: 600;
+    color: rgba(31, 35, 41, 1);
+    border-bottom: 1px solid rgba(239, 240, 241, 1);
+    border-radius: 4px;
+}
+
+.PersagyDashboardModal .ant-modal-close-x {
+    color: rgba(156, 162, 169, 1);
+}
+
+.PersagyDashboardModal .ant-modal-content {
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.PersagyDashboardModal .ant-form-item-label label {
+    font-size: 13px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 35, 41, 1);
+}
+
+.PersagyDashboardModal .ant-modal-footer {
+    border-top: 0;
+    padding: 0 15px 15px 0;
+}
+
+.PersagyDashboardModal .ant-btn {
+    border-radius: 4px;
+    border: 1px solid rgba(195, 198, 203, 1);
+    background: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(31, 35, 41, 1);
+    line-height: 22px;
+}
+
+.PersagyDashboardModal .ant-btn-primary {
+    background: rgba(0, 145, 255, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei, PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 22px;
+    border: 0;
+}
+
+.PersagyDashboardModal .ant-form-item {
+    margin-bottom: 10px;
+}
+
+.PersagyDashboardModal .ant-form-item-label {
+    text-align: left;
+}
+
+.PersagyDashboardModal .ant-col-sm-8 {
+    width: auto;
+}
+
+.PersagyDashboardModal .ant-col-sm-12 {
+    width: 100%;
+}
+
+.PersagyDashboardModal .ant-input {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei, ArialMT;
+    color: rgba(31, 35, 41, 1);
+    height: 32px;
+    border: 1px solid rgba(195, 198, 203, 1);
+}
+
+/* layout */
+/* admin DropDown */
+
+/* menu */
+/* .persagy-layout-menu .ant-menu-submenu-title {
+} */
+.persagy-layout-menu .ant-menu-vertical {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-layout-menu .ant-menu-vertical>li>a {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-layout-menu .ant-menu-submenu-title:hover,
+.persagy-layout-menu .ant-menu-item>a:hover {
+    color: #2ea2f8;
+}
+
+/* 模态框公用样式 */
+.persagy-modal .ant-modal-content {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 30px 0px rgba(31, 35, 41, 0.15);
+    border-radius: 8px;
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-modal .ant-modal-header {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px 8px 0 0;
+    font-size: 16px;
+    font-family: MicrosoftYaHei, PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(31, 35, 41, 1);
+    border-bottom: 1px solid rgba(239, 240, 241, 1);
+}
+
+.persagy-modal .ant-modal-footer {
+    border-top: 1px solid rgba(239, 240, 241, 1);
+}
+
+.persagy-modal .ant-modal-close-x:before {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-modal .ant-btn {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(31, 35, 41, 1);
+    border-radius: 4px;
+    border-color: #aaa;
+}
+
+.persagy-modal .ant-btn-primary {
+    color: #fff;
+    background-color: #2ea2f8;
+    border-color: #2ea2f8;
+    border-radius: 4px;
+}
+
+/* 下拉列表公用样式 */
+.persagy-select .ant-select-dropdown-menu-item-active,
+.persagy-select .ant-select-dropdown-menu-item:hover {
+    background-color: #E1F2FF;
+    z-index: 2000;
+}
+
+.persagy-select .ant-select-dropdown-menu-item-selected,
+.persagy-select .ant-select-dropdown-menu-item-selected:hover {
+    background-color: #E1F2FF
+}
+
+.persagy-select .ant-select-dropdown-menu-item {
+    background-color: #FFF;
+    color: #000;
+}
+
+.persagy-select .ant-select-dropdown {
+    z-index: 2000;
+}
+
+.persagy-select .ant-menu-horizontal>.ant-menu-submenu-selected {
+    border-bottom: 2px solid #2ea2f8;
+    color: #2ea2f8;
+}
+
+.persagy-select .ant-select-dropdown-menu-item-active {
+    background: #E1F2FF
+}
+
+/* DatePiker */
+.persagy-datePiker .ant-calendar-picker {
+    border-radius: 4px;
+}
+
+.persagy-datePiker .ant-calendar-picker:hover .ant-calendar-picker-input:not([disabled]) {
+    border-color: #2EA2F8;
+}
+
+.persagy-datePiker .ant-calendar-picker-clear {
+    color: #aaa;
+}
+
+.persagy-datePiker .ant-calendar-date:hover {
+    background: #E1F2FF;
+}
+
+.persagy-datePiker .ant-calendar-range .ant-calendar-in-range-cell:before {
+    background-color: #2EA2F8;
+}
+
+.persagy-datePiker .ant-calendar {
+    background-color: #FFF;
+    color: #000;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.persagy-datePiker .ant-calendar-input,
+.persagy-datePiker .ant-calendar-range .ant-calendar-input,
+.persagy-datePiker .ant-calendar-range .ant-calendar-time-picker-input {
+    background: #fff;
+    color: #000;
+}
+
+.persagy-datePiker .ant-calendar-header .ant-calendar-time-picker {
+    background: #fff;
+    color: #000;
+}
+
+.persagy-datePiker .ant-calendar-date {
+    color: #000;
+}
+
+.persagy-datePiker .ant-calendar-header .ant-calendar-prev-century-btn,
+.persagy-datePiker .ant-calendar-header .ant-calendar-next-century-btn,
+.persagy-datePiker .ant-calendar-header .ant-calendar-prev-decade-btn,
+.persagy-datePiker .ant-calendar-header .ant-calendar-next-decade-btn,
+.persagy-datePiker .ant-calendar-header .ant-calendar-prev-month-btn,
+.persagy-datePiker .ant-calendar-header .ant-calendar-next-month-btn,
+.persagy-datePiker .ant-calendar-header .ant-calendar-prev-year-btn,
+.persagy-datePiker .ant-calendar-header .ant-calendar-next-year-btn,
+.persagy-datePiker .ant-calendar-header .ant-calendar-century-select,
+.persagy-datePiker .ant-calendar-header .ant-calendar-decade-select,
+.persagy-datePiker .ant-calendar-header .ant-calendar-year-select,
+.persagy-datePiker .ant-calendar-header .ant-calendar-month-select {
+    color: #000;
+}
+
+.persagy-datePiker .ant-calendar-input-wrap,
+.persagy-datePiker .ant-calendar-header {
+    border-bottom: 1px solid #eee;
+}
+
+.persagy-datePiker .ant-calendar-footer,
+.persagy-datePiker .ant-calendar-range .ant-calendar-body,
+.persagy-datePiker .ant-calendar-range .ant-calendar-month-panel-body,
+.persagy-datePiker .ant-calendar-range .ant-calendar-year-panel-body {
+    border-top: 1px solid #eee;
+}
+
+.persagy-datePiker .ant-calendar-disabled-cell .ant-calendar-date {
+    color: #bcbcbc;
+    background: #eee;
+}
+
+.persagy-datePiker .ant-calendar-last-month-cell .ant-calendar-date,
+.persagy-datePiker .ant-calendar-next-month-btn-day .ant-calendar-date {
+    color: #bcbcbc;
+}
+
+/* 补充样式 */
+/* 仪表盘配置form  其他form也可以使用*/
+.persagy-dashBoardLine-form .ant-form-item-control {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-dashBoardLine-form .ant-btn,
+.persagy-dashBoardLine-form .ant-input,
+.persagy-dashBoardLine-form .ant-tag,
+.persagy-dashBoardLine-form .ant-select-selection {
+    color: rgba(31, 35, 41, 1) !important;
+    border: 1px solid rgba(195, 198, 203, 1);
+    background: rgba(255, 255, 255, 1) !important;
+    border-radius: 4px;
+}
+
+.persagy-dashBoardLine-form .ant-form-item-label label {
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-dashBoardLine-form .ant-radio-inner {
+    background: rgba(255, 255, 255, 1);
+    border-color: #aaa;
+}
+
+.persagy-dashBoardLine-form .ant-time-picker-input {
+    color: rgba(31, 35, 41, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.persagy-dashBoardLine-form .ant-time-picker-icon:after,
+.persagy-dashBoardLine-form .ant-calendar-picker-icon:after {
+    color: rgba(31, 35, 41, 1);
+}
+
+.persagy-dashBoardLine-form .ant-table-tbody>tr>td {
+    background: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: rgba(31, 36, 41, 1);
+    border: none;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.persagy-dashBoardLine-form .ant-table-thead>tr>th {
+    background: rgba(248, 249, 250, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    border: none;
+}
+
+.persagy-dashBoardLine-form .ant-table-placeholder {
+    background: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: rgba(100, 106, 115, 1);
+    border: none;
+}
+
+.persagy-dashBoardLine-form .ant-table-small {
+    border: none;
+}
+
+.persagy-dashBoardLine-form .ant-input-number-input {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(31, 36, 41, 1);
+}
+
+.persagy-dashBoardLine-form .ant-input-group-addon {
+    background: #fff;
+    border: 1px solid #aaa;
+}
+
+/* 经验信息模态样式修改 */
+.GuaranteeText p {
+    display: inline;
+}
+
+/* 设备台账样式 */
+.DeviceInfo-style .ant-modal-body {
+    height: 700px;
+}
+
+.ant-menu .warningColor {
+    background: red;
+    animation: warning 3s infinite;
+}
+
+@keyframes warning {
+    0% {
+        background: red;
+    }
+
+    50% {
+        background: rgb(39, 49, 66);
+    }
+
+    100% {
+        background: red;
+    }
+}
+
+.ant-menu .warningPageColor {
+    color: red;
+    animation: warningPage 3s infinite;
+}
+
+@keyframes warningPage {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+/* -----------------------------------------------------------------分割线------------------------------------------------------------------------------ */
+.scrollable-modal .ant-modal {
+    top: auto;
+    padding-bottom: 0;
+    background-color: #F5F5F5;
+}
+
+.scrollable-modal .ant-modal-body {
+    max-height: 800px;
+    overflow-y: auto;
+    background-color: #F5F5F5;
+}
+
+.content-no-padding-modal .ant-modal-body {
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+@media screen and (max-height: 940px) {
+    .vertical-center-modal .ant-modal-body {
+        max-height: 700px;
+        overflow-y: auto
+    }
+
+    .vertical-center-modal-equipment .ant-modal-body {
+        max-height: 700px;
+        overflow-y: auto
+    }
+
+    .vertical-center-modal-equipment-best .ant-modal-body {
+        max-height: 700px;
+        overflow-y: auto
+    }
+
+    .trend-best .ant-modal-body {
+        max-height: 700px;
+        overflow-y: auto
+    }
+
+}
+
+/* unicode */
+@font-face {
+    font-family: "iconfont";
+    src: url('./themes/dark/font_william/iconfont.eot');
+    /* IE9*/
+    src: url('./themes/dark/font_william/iconfont.eot#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./themes/dark/font_william/iconfont.woff') format('woff'),
+        /* chrome, firefox */
+        url('./themes/dark/font_william/iconfont.ttf') format('truetype'),
+        /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+        url('./themes/dark/font_william/iconfont.svg#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 42px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.rectanglePanelCard .ant-card-head {
+    background-color: rgba(46, 199, 255, 0.9);
+    height: 40px;
+    min-height: 40px;
+    line-height: 10px;
+}
+
+.rectanglePanelCard .ant-card-body>div {
+    line-height: 25px !important;
+}
+
+.rectanglePanelCard .ant-card-body {
+    padding: 5px 10px;
+    background-color: rgba(46, 199, 255, 0.7);
+}
+
+.rectanglePanelCard .ant-card-body>p {
+    margin-bottom: 1px;
+}
+
+
+.ractanglesDark .ant-card-head {
+    background-color: rgba(43, 163, 208, 0.904);
+    height: 35px;
+    line-height: 14px;
+    border: 1px solid rgb(43, 163, 208);
+}
+
+/* .ractanglesDark .ant-card-head-title {
+    font-size: 20px;
+} */
+
+.ractanglesDark .ant-card-body {
+    padding: 10px;
+}
+
+.ractanglesDark .ant-card-body>p {
+    margin-bottom: 5px;
+}
+
+.ractanglesDark .ant-card-bordered {
+    border: 1px solid rgb(43, 163, 208);
+    font-size: 20px;
+}
+
+/* 菜单位置 */
+.ant-menu-submenu>.ant-menu {
+    position: absolute;
+    top: -8px;
+    min-width: 40px;
+}
+
+.ListView .ant-table-thead>tr>th {
+    text-align: center;
+}
+
+.ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    background-color: RGB(46, 162, 248);
+}
+
+.ant-tree li .ant-tree-node-content-wrapper:hover {
+    background-color: RGB(75, 85, 96);
+}
+
+.ant-upload-select-picture-card i {
+    font-size: 32px;
+    color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 8px;
+    color: #666;
+}
+
+
+
+.scriptRule .ant-menu-item-selected {
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.scriptRule .ant-menu-item {
+    background-color: #ddd;
+    color: black;
+}
+
+.scriptRule .ant-menu-item:hover {
+    color: white;
+}
+
+.scriptRule .ant-menu-item-selected:hover {
+    color: black;
+}
+
+
+.aiRule .ant-menu-item-selected {
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid rgb(43, 163, 208);
+}
+
+
+/* 实时报警颜色动态修改 */
+/* 1- 未确认，未消除 */
+.warning-status-1>td {
+    background-color: red !important;
+    padding: 0px 5px 0px 5px !important;
+}
+
+/* 2- 未确认，已消除 */
+.warning-status-2>td {
+    color: black !important;
+    background-color: yellow !important;
+    padding: 0px 5px 0px 5px !important;
+}
+
+/* 3- 已忽略，未消除 */
+.warning-status-3>td {
+    color: red !important;
+    background-color: #dad4d4 !important;
+    padding: 0px 5px 0px 5px !important;
+}
+
+/* 4- 已忽略，已消除 */
+.warning-status-4>td {
+    color: black !important;
+    background-color: #dad4d4 !important;
+    padding: 0px 5px 0px 5px !important;
+}
+
+/* 5- 已确认，未消除 */
+.warning-status-5>td {
+    color: red !important;
+    background-color: yellow !important;
+    padding: 0px 5px 0px 5px !important;
+}
+
+/* 6- 已确认，已消除 */
+.warning-status-6>td {
+    color: black !important;
+    background-color: #dad4d4 !important;
+    padding: 0px 5px 0px 5px !important;
+}
+
+.realtimeWarning .ant-modal-body {
+    padding: 0px 5px 5px 5px;
+}
+
+.realtimeWarning .ant-modal-header {
+    padding: 5px 15px;
+}
+
+.realtimeWarning .ant-modal-close-x {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.realtimeWarning {
+    margin-top: 100px;
+    margin-bottom: 900px;
+    overflow: inherit;
+}
+
+.realtimeWarning .ant-modal {
+    margin-top: -100px;
+}
+
+/* 知识库 */
+.knowledgeMenu .ant-menu-inline {
+    border-right: none;
+}
+
+.knowledgeMenu .ant-tree li .ant-tree-node-content-wrapper {
+    color: rgba(0, 0, 0, .65);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.knowledgeMenu .ant-tree.ant-tree-show-line li span.ant-tree-switcher {
+    background: none;
+    color: rgba(0, 0, 0, .65);
+}
+
+.knowledgeMenu .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected,
+.knowledgeMenu .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected:hover {
+    background-color: #d4f2ff;
+}
+
+.knowledgeMenu .ant-tree li .ant-tree-node-content-wrapper:hover {
+    background-color: rgb(231, 247, 255);
+}
+
+.knowledgeMenu .ant-tree li {
+    margin: 3px 0px;
+}
+
+.knowledgeLayout .ant-layout {
+    background: #fff;
+}
+
+.knowledgeLayout .ant-tree.ant-tree-show-line li:not(:last-child)::before {
+    height: 0;
+}
+
+.knowledgeMenu .ant-tree>li>ul>li .ant-tree-node-content-wrapper {
+    color: rgba(0, 0, 0, .65);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.addKnowledge .ant-select-selection__choice {
+    color: #000 !important;
+}
+
+.addKnowledge .ant-select-selection__choice__remove {
+    color: #000 !important;
+}
+
+.copyKnowledge .ant-select-search__field {
+    background: #1b2431;
+}
+
+.copyKnowledge .ant-select-tree-node-content-wrapper:hover {
+    background-color: rgba(46, 162, 248, 0.4) !important;
+}
+
+.copyKnowledge .ant-select-tree-node-selected {
+    background-color: rgba(46, 162, 248, 0.6) !important;
+}
+
+.ant-descriptions-item-label {
+    color: rgba(0, 0, 0, .85);
+}
+
+.ant-descriptions-item-content {
+    color: rgba(0, 0, 0, .65);
+    background-color: #fff;
+}
+
+.ant-descriptions-bordered .ant-descriptions-item-label,
+.ant-descriptions-bordered .ant-descriptions-item-content {
+    border-right: 1px solid #e8e8e8;
+}
+
+.ant-descriptions-bordered .ant-descriptions-row {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.ant-descriptions-bordered .ant-descriptions-view {
+    border: 1px solid #e8e8e8;
+}
+
+.watchOver>.ant-descriptions>.ant-descriptions-view>table>tbody>.ant-descriptions-row:last-child>.ant-descriptions-item-content {
+    padding: 0;
+}
+
+.vertical-center-modal-equipment .ant-modal-close-x {
+    width: 46px;
+}
+
+.vertical-center-modal-equipment .ant-modal-close-icon {
+    margin-left: -10px;
+}
+
+.ant-modal-close-x:hover .ant-modal-close-icon {
+    color: #60b8fa;
+}
+
+.highlight-row td {
+    background-color:rgba(255, 255, 255, .3) !important;
+}

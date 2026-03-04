@@ -1,0 +1,67 @@
+/**
+ * 登录页样式表
+ */
+
+.login-form {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-app-region: drag;
+}
+.login-form-btns {
+  position: absolute;
+  width: 100%;
+  line-height: 35px;
+  height: 35px;
+  z-index: 10;
+  left: 0;
+  top: 0;
+}
+
+.login-form-urlname {
+  font-size: 18px;
+  position: absolute;
+  width: 600px;
+  right: 78px;
+  top: 11px;
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+  color: #FFFFFF;
+  overflow: hidden;
+  text-align: right;
+  font-size: 14px;
+  padding: 0;
+}
+.login-form-close-btn {
+  font-size: 18px;
+  position: absolute;
+  right: 15px;
+  top:11px;
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.login-form-config-btn {
+  font-size: 18px;
+  position: absolute;
+  right: 45px;
+  top: 11px;
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+.login-form-close-btn:hover,
+.login-form-config-btn:hover {
+  color:#2ea2f8; 
+}
+.login-error-tip {
+  -webkit-app-region: no-drag;
+}
+
+
+
+
