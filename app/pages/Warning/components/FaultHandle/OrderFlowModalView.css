@@ -1,0 +1,96 @@
+.subTitle{
+    color: #e0dede;
+    font-size: 12px;
+    margin-top: -8px;
+}
+
+.title{
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.content{
+    font-size: 16px;
+    white-space: pre-wrap;
+    margin-bottom: 15px;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.operate{
+    max-height: 100px;
+    overflow-y: auto;
+    color: #e0dede;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.comment{
+    max-height: 360px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.addComment{
+    margin-top:5px;
+    vertical-align:top;
+    float: right;
+}
+
+.del{
+    color: #ccc;
+    border: none;
+}
+
+.edit{
+    color: #ccc;
+    border: none;
+}
+
+.del:hover{
+    color: red !important;
+    background: none !important;
+}
+
+.edit:hover{
+    color: greenyellow !important;
+    background: none !important;
+}
+
+.addPic{
+    display:inline-block;
+    margin-top:5px;
+    margin-bottom:-10px;
+}
+
+.attachment{
+    color: rgb(0, 247, 255);
+    display: inline-block;
+    border-bottom: 1px solid rgb(0, 247, 255);
+}
+
+.attachment:hover{
+    cursor: pointer;
+    border-bottom: 1px solid greenyellow;
+    color: greenyellow;
+}
+
+.rightMenuImg{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background: #001529;
+    border: 1px solid #dadce0;
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 1000;
+    border-radius: 5px;
+    z-index: 100;
+    display: none;
+  }

@@ -1,0 +1,10 @@
+.point-selected{
+  background-color: #555;
+  height: 30px;
+}
+.point-normal{
+  height: 30px;
+}
+.search-point{
+  margin-bottom: 10px;
+}

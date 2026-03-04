@@ -1,0 +1,11 @@
+.observer-container {
+  position: relative;
+}
+.container {
+  position: relative;
+
+}
+
+.row-margin{
+  margin-bottom: 10px !important;
+}

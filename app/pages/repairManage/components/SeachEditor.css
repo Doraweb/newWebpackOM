@@ -1,0 +1,13 @@
+.editorElembody p{
+    padding:0;
+    margin: 0;
+} 
+.text-area div h1{
+    color: black!important;
+}
+.hideScroll::-webkit-scrollbar {
+    display: none;
+}
+.repairHeight{
+   height:calc(100% - 45px);
+}

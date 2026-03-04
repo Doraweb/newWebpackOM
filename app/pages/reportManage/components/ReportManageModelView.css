@@ -1,0 +1,12 @@
+.container{
+  position: absolute;
+  color: #ffffff;
+  /* background-color: #FFFFFF; */
+  z-index: 2;
+  padding: 10px;
+}
+
+
+.table-wrap{
+  padding: 10px;
+}

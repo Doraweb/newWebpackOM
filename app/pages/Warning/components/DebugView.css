@@ -1,0 +1,35 @@
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #1b2431;
+    z-index: 1
+}
+.persagy-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 1
+}
+
+
+.left-sider {
+    width: 120px;
+    height: 100%;
+    overflow-y: auto;
+    background: #16191C;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    left: 120px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}  

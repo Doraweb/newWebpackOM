@@ -1,0 +1,15 @@
+.container{
+    width:100%;
+}
+
+.header{
+    padding: 20px 20px;
+}
+
+.table-content{
+    width: 100%;
+}
+
+.no{
+    text-align: center
+}

@@ -1,0 +1,119 @@
+.menuItem:hover .btnCopy{
+    visibility:visible;
+}
+.btnCopy{
+  visibility: hidden;
+  position: absolute;
+  right: 5px;
+  top:2px;
+}
+
+.menuItem:hover .btnPlay{
+  visibility:visible;
+}
+.btnPlay{
+visibility: hidden;
+position: absolute;
+right: 30px;
+color: #0cf70c;
+top:2px;
+}
+
+.menuItem:hover .btnPause{
+  visibility:visible;
+}
+.btnPause{
+visibility: hidden;
+position: absolute;
+right: 30px;
+color: red;
+top:2px;
+}
+
+.inner-container {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.left-sider {
+  width: 248px;
+  height: 85%;
+  overflow-y: auto;
+  background: #16191C;
+  position: relative;
+}
+
+.sider-header {
+  height: 64px;
+  line-height: 64px;
+  padding: 0 24px;
+  border-bottom: 1px solid #1F2429;
+}
+
+.sider-footer {
+  position: absolute;
+  bottom: 55px;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.sider-footer-export {
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+}
+
+.sider-footer-import {
+  position: absolute;
+  left: 0px;
+  bottom: 2px;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+}
+
+.content {
+  position: absolute;
+  left: 248px;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.chart-container-wrap {
+    margin-right: 20px;
+    height: 100%;
+}
+
+.scriptRule .ant-menu-submenu-title, .ant-menu:not(.ant-menu-horizontal) .ant-menu-item {
+  background-color: #ddd!important  
+}
+
+.context-menu {
+  width: 225px;
+  position: absolute;
+  background-color: rgb(2, 25, 61);
+  border: 1px solid #031226;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  padding: 5px 0;
+}
+
+.context-menu-option {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.context-menu-option:hover {
+  background-color: #e62a33;
+}
