@@ -1,0 +1,391 @@
+/** /pages/layout/components/LayoutView.css  */
+body :global(.ant-menu-sub) {
+  margin-top: 0px !important;
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.best-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #FFFFFF;
+}
+
+.persagy-container {
+  width: 100%;
+  height: 100%;
+  background: rgba(248, 249, 250, 1);
+  font-family: MicrosoftYaHei;
+  color: rgba(100, 106, 115, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.header-right {
+  float: right;
+  margin-right: 20px;
+}
+
+.header-btns {
+  float: right;
+}
+
+.header-url {
+  float: left;
+  width: 500px;
+  text-align: right;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.header-url-left-span {
+  margin-right: 5px;
+}
+
+.container .header-btns>button {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  position: absolute;
+  top: 48px;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  background-color: #1b2431;
+}
+
+.content-Time {
+  position: absolute;
+  top: 48px;
+  bottom: 108px;
+  left: 0;
+  right: 0;
+  background-color: #1b2431;
+}
+
+.persagy-content {
+  position: absolute;
+  top: 48px;
+  bottom: 48px;
+  left: 0;
+  right: 0;
+  background: rgba(247, 249, 250, 1);
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: rgba(31, 35, 41, 1);
+}
+
+.persagy-content-Time {
+  position: absolute;
+  top: 48px;
+  bottom: 108px;
+  left: 0;
+  right: 0;
+  background: rgba(247, 249, 250, 1);
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: rgba(31, 35, 41, 1);
+}
+
+
+.content-header-rightMenu {
+
+  background-color: #273135;
+  float: right;
+}
+
+.content-header-btns {
+  position: relative;
+  float: left;
+  width: auto;
+}
+
+.content-header-btns button {
+  margin-left: 12px;
+}
+
+.content-header-menu {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  /* right: 318px;对应 content-header-rightMenu 类的width  */
+  /*overflow:auto; */
+  height: 48px;
+  /* height: 500px; */
+  line-height: 48px;
+  background-color: transparent;
+  float: left;
+  border: none;
+  font-size: 14px;
+}
+
+.best-content-header-menu {
+  position: relative;
+  top: 8px;
+  left: 8px;
+  /* right: 318px;对应 content-header-rightMenu 类的width  */
+  /*overflow:auto; */
+  /* height: 56px; */
+  /* height: 500px; */
+  height: 32px;
+  line-height: 32px;
+  background-color: transparent;
+  float: left;
+  font-size: 14px;
+  border: none;
+  color: #000;
+}
+
+.persagy-content-header-menu {
+  position: relative;
+  top: 8px;
+  left: 8px;
+  /* right: 318px;对应 content-header-rightMenu 类的width  */
+  /*overflow:auto; */
+  /* height: 56px; */
+  /* height: 500px; */
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  border: none;
+  background: rgba(247, 249, 250, 1);
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: rgba(31, 35, 41, 1);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  /* 滚动条宽度为0 */
+  height: 0;
+  /* 滚动条高度为0 */
+  display: none;
+  /* 滚动条隐藏 */
+}
+
+.content-inner {
+  position: absolute;
+  top: 48px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Warning-btn {
+  height: 22px;
+  font-size: 11px;
+  width: 60px;
+  padding: 0 10px;
+}
+
+.footer-content {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.footer-button-span {
+  margin-right: 2%;
+  background-color: #2EA2F8;
+  color: #F9F9F9;
+  padding: 0 3px 0 3px;
+}
+
+.footer-content>button,
+.footer-content>span {
+  margin-left: 12px;
+}
+
+.icon-label {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.icon-label-inner-label {
+  font-weight: 400;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.warnning-label {
+  color: #f04134;
+}
+
+.help {
+  float: right;
+  margin-right: 16px;
+}
+
+.btn-log {
+  margin-right: 12px;
+}
+
+.round {
+  background-color: #009900;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  color: #009900;
+  display: inline-block;
+  text-align: center;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.round_red {
+  background-color: #CC0000;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  color: #CC0000;
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.round:hover {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.round_red:hover {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.top-right-btnIcon {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.icon-select-before {
+  font-size: 18px;
+  color: #aaa;
+}
+
+.icon-select-after {
+  animation: historyAnimation 1s infinite;
+  font-size: 18px;
+  color: rgb(96, 184, 250);
+}
+
+
+
+.icon-select-before:hover,
+.icon-select-after:hover,
+.top-right-btnIcon>button:hover {
+  color: rgb(133, 184, 250);
+  border-color: rgb(133, 184, 250);
+}
+
+.textAnimation {
+  animation: leo .6s linear;
+  z-index: 100;
+}
+
+.menu-group-title {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  margin-top: -4px;
+  padding-bottom: 4px;
+}
+
+@keyframes leo {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+
+  10%,
+  90% {
+    transform: translate3d(0, -0.5px, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(0, 0.5px, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(0, -1px, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(0, 1px, 0);
+  }
+}
+
+@keyframes historyAnimation {
+  0% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 0.5
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+.min-display {
+  display: inline-block;
+}
+
+/* @media screen and (max-width:1000px) {
+    .min-display {
+      display: none;
+    }
+  }  */
+
+.cloudVersion {
+  cursor: pointer;
+  margin-left: 5px;
+  color: red;
+  animation-name: cloudVersionAni;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cloudVersionAni {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

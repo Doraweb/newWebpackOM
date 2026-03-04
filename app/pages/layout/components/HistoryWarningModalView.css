@@ -1,0 +1,21 @@
+.date-btns-wrap{
+    margin-bottom: 15px;
+}
+
+.date-btns-wrap .ant-calendar-in-range-cell:before{
+    content: '';
+    display: block;
+    background: #2EA2F8 !important;
+    border-radius: 0;
+    border: 0;
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+}
+
+.table-wrap{
+    height: 450px;
+    padding: 0 20px 12px;
+}

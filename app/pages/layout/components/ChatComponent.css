@@ -1,0 +1,241 @@
+.chat-container {
+  width: 470px;
+  height: calc(100% - 120px);
+  max-height: 590px;
+  position: fixed;
+  right: 850px;
+  bottom: 150px;
+  box-sizing: border-box;
+  box-shadow: 0px 7px 40px 2px rgba(148, 149, 150, 0.3);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.chat-message-list {
+  height: 85%;
+  overflow-y: auto;
+  background-color: white;
+  background-size: 100%;
+  padding: 40px 0px;
+}
+
+
+
+
+/* .chat-messages div.user-message {
+    margin-bottom: 10px;
+    color:  white
+}
+
+.chat-messages div.bot-message {
+    margin-bottom: 10px;
+    color: darkorange
+} */
+
+.chat-input {
+  /* display: flex; */
+
+  min-height: 55px;
+  margin: 0px;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  background-color: #f4f7f9;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: background-color .2s ease, box-shadow .2s ease;
+}
+
+
+.chat-input input {
+  min-height: 55px;
+  margin: 0px;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  background-color: #f4f7f9;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+
+.chat-input input:focus {
+  box-shadow: none;
+  background-color: white;
+  box-shadow: 0px -5px 20px 0px rgba(150, 165, 190, 0.2);
+}
+
+
+.chat-input--text {
+  width: 400px;
+  resize: none;
+  border: none;
+  outline: none;
+  border-bottom-left-radius: 10px;
+  box-sizing: border-box;
+  padding: 18px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.33;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #565867;
+  -webkit-font-smoothing: antialiased;
+  max-height: 200px;
+  overflow: scroll;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.chat-input--text:empty:before {
+  content: attr(placeholder);
+  display: block;
+  /* For Firefox */
+  color: rgba(86, 88, 103, 0.3);
+  outline: none;
+}
+
+
+
+
+
+.chat-input button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.chat-input button:hover {
+  background-color: #0056b3;
+}
+
+.chat-header {
+  background: #4e8cff;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  color: white;
+  padding: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  height: 50px;
+}
+
+.chat-header--team-name {
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 43px;
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  flex: 1;
+  user-select: none;
+  border-radius: 5px;
+}
+
+.chat-header--close-button {
+  width: 30px;
+  align-self: flex-end;
+  height: 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.chat-header--close-button img {
+  margin-top: 22px;
+  width: 50%;
+}
+
+.chat-message {
+  width: 400px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+
+.chat-message--content {
+  width: 100%;
+  display: flex;
+}
+
+.chat-message--content.sent {
+  justify-content: flex-end;
+}
+
+.chat-message--content.sent .chat-message--avatar {
+  display: none;
+}
+
+.chat-message--avatar {
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  min-width: 15px;
+  min-height: 15px;
+  border-radius: 50%;
+  align-self: start;
+  margin-right: 5px;
+  margin-left: -20px;
+}
+
+.chat-message--avatar img {
+  width: 40px;
+}
+
+.chat-message--text {
+  color: #565867;
+  padding: 17px 20px;
+  border-radius: 6px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  -webkit-font-smoothing: subpixel-antialiased;
+  word-wrap: break-word;
+  width: calc(100% - 90px);
+  user-select: text;
+}
+
+
+.chat-message--content.sent .chat-message--text {
+  color: white;
+  background-color: #4e8cff;
+  max-width: calc(100% - 120px);
+  /* word-wrap: break-word; */
+  /*旧版本css*/
+  overflow-wrap: break-word;
+  /*新版本css*/
+}
+
+.chat-message--content.received .chat-message--text {
+  color: #263238;
+  background-color: #f4f7f9;
+  margin-right: 40px;
+}
+
+.chat-user-input--buttons {
+  width: 88px;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 100;
+}

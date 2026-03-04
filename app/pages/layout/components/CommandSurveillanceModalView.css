@@ -1,0 +1,41 @@
+.header {
+    height: 100px;
+    display: flex;
+}
+
+.box {
+    margin-inline: 40px;
+    text-align: center;
+    background-color: rgba(42, 55, 79, 0.9);
+    padding: 10px;
+    flex: 1;
+}
+
+.box_value {
+    line-height: 36px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.record {
+    height: 180px;
+    background-color: rgba(23, 23, 23, 0.8);
+    margin: 10px 20px 10px 10px;
+    padding: 10px 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(250, 250, 250, 0.3);
+}
+
+.historySearch {
+    position: absolute;
+    display: inline-block;
+    right: 5px;
+    margin-top: -95px;
+}
+
+.historySearch {
+    color: rgb(46, 162, 248);
+    cursor: pointer;
+    position: inherit;
+    margin-left: 5px;
+}

@@ -1,0 +1,20 @@
+.value-list-layout {
+  width: 100%;
+  height: 100%;
+}
+.value-list-header {
+  border-bottom: 1px solid #495252;
+  height: 48px;
+  line-height: 48px;
+  padding: 13px 8px 12px;
+}
+.dropdown-add-btn {
+    float: left;
+}
+.dropdown-delete-btn {
+    float: right;
+}
+.table-wrap {
+  height: 300px;
+  overflow: auto;
+}

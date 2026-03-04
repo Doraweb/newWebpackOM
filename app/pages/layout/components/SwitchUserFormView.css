@@ -1,0 +1,17 @@
+/**
+ * 登录表单样式表
+ */
+.content {
+  padding: 15px 10px 0 35px;
+  width: 340px;
+  -webkit-app-region: no-drag;
+}
+.username {
+  margin-bottom: 16px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-btn {
+  width: 100%;
+}

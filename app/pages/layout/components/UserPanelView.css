@@ -1,0 +1,11 @@
+.panel-content {
+  width: 200px;
+}
+
+.panel-content > div {
+  margin-bottom: 12px;
+}
+
+.opt-btn {
+  width: 100%;
+}

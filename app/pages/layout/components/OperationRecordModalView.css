@@ -1,0 +1,21 @@
+/** OperationRecordModalView.css */
+.date-btns-wrap {
+  text-align: center;
+  margin: -10px 16px 8px;
+}
+
+.table-wrap {
+  padding: 0 20px 20px;
+  height: 460px;
+}
+
+.downloadBtn{
+  margin-left:20px;
+}
+
+.operationBtn{
+  padding: 0px 5px;
+  height: 28px;
+  margin-right: 10px;
+  margin-bottom: 5px
+}
