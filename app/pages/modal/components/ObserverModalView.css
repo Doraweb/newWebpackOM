@@ -1,0 +1,16 @@
+.observer-container {
+  position: relative;
+}
+
+.container {
+  position: relative;
+
+}
+
+.row-margin {
+  margin-bottom: 10px !important;
+}
+
+.topIcon:hover {
+  color: #60b8fa;
+}

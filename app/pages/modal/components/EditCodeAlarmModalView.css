@@ -1,0 +1,21 @@
+
+.cancel-btn{
+    margin-right: 10px;
+}
+
+.editor {
+    height: 320px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 0;
+    display: block;
+    border-radius: 0;
+    font-family: Operator monospace;
+    z-index: 10000;
+    background: #ffffff;
+    color: #000
+  }
+
+  .row-margin{
+    margin-bottom: 10px !important;
+}

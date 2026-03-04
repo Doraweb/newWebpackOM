@@ -1,0 +1,44 @@
+
+.cancel-btn{
+    margin-right: 10px;
+}
+
+.editor {
+    height: 320px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 0;
+    display: block;
+    border-radius: 0;
+    font-family: Operator monospace;
+    z-index: 10000;
+    background: #ffffff;
+    color: #000
+  }
+
+  .row-margin{
+    margin-bottom: 10px !important;
+}
+
+
+.row-margin-min{
+  margin-bottom: 2px !important;
+  margin-left: -20px !important;
+  margin-right: -20px !important;
+}
+
+.row-margin-min-num{
+  margin-bottom: 2px !important;
+  margin-left: -20px !important;
+  margin-right: -40px !important;
+}
+
+.row-margin-info{
+  margin-bottom: 10px !important;
+  padding-right: 30px !important;
+}
+
+.row-margin-info2{
+  margin-bottom: 10px !important;
+  padding-right: 0px !important;
+}
